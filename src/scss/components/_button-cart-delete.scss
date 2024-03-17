@@ -1,0 +1,14 @@
+@import '../variables';
+
+.button-cart-delete {
+	position: absolute;
+	right: 20px;
+
+	width: 30px;
+	height: 30px;
+	border: 1px solid $dark-violet-color;
+	border-radius: 4px;
+	background-color: $light-violet-color;
+
+	cursor: pointer;
+}

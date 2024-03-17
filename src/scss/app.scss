@@ -1,0 +1,55 @@
+@import './components/all';
+@import './normalize-custom';
+@import './variables';
+
+body {
+	background-color: $light-violet-color;
+}
+
+.wrapper {
+	width: calc(100vw - 100px);
+	height: 100%;
+	background-color: $dark-violet-color;
+	margin: 30px auto;
+	padding: 0 30px;
+	border-radius: 10px;
+	max-width: 1400px;
+}
+
+.header {
+	padding: 20px;
+	border-bottom: 1px solid $light-violet-color;
+
+	h1 {
+		margin: 0;
+		color: $light-violet-color;
+		font-size: 32px;
+		font-weight: 500;
+	}
+}
+
+.content {
+	padding: 40px auto;
+
+	display: grid;
+	gap: 10px;
+	grid-template-columns: 3fr 1fr;
+
+	&-error {
+		margin-left: 20px;
+		color: $light-violet-color;
+		height: 500px;
+	}
+
+	&-block {
+		margin-top: 40px;
+	}
+}
+
+.price-block {
+	margin: 30px auto;
+	p {
+		font-size: 25px;
+		color: $light-violet-color;
+	}
+}

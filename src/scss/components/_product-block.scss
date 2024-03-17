@@ -1,0 +1,40 @@
+@import '../variables';
+
+.product-block {
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	margin: 0px 20px 40px;
+	border-radius: 10px;
+	padding: 40px;
+
+	background-color: #fff;
+
+	&__image {
+		min-width: 200px;
+		max-width: 200px;
+	}
+
+	&__title {
+		position: relative;
+		margin: 0 30px;
+		padding: 20px;
+		background-color: $light-violet-color;
+		border: 1px solid $dark-violet-color;
+		border-radius: 10px;
+
+		h2 {
+			margin-top: 0px;
+		}
+
+		p {
+			margin: 0;
+		}
+
+		span {
+			font-size: 18px;
+			margin: 10px;
+		}
+	}
+}
